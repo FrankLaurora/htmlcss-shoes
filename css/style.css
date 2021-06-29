@@ -39,3 +39,43 @@ nav li span {
     height: 2em;
     border-radius: 50%;
 }
+
+/* main */
+
+.full-port {
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+#item-1 {
+    background-color: #ff0000;
+    color: #ffff00;
+}
+
+#item-2 {
+    background-color: #008000;
+    color: #ffff00;
+}
+
+#item-3 {
+    background-color: #ffff00;
+    color: #008000;
+}
+
+.item-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 50%;
+}
+
+.item-box img {
+    width: 100%;
+}
+
+.item-box .text-box {
+    text-align: center;
+    font-size: 2em;
+}
