@@ -25,7 +25,7 @@ nav {
 
 nav li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 18px;
 }
 
 nav li a, nav li a:visited {
@@ -43,6 +43,11 @@ nav li span {
     height: 2em;
     border-radius: 50%;
     box-shadow: 5px 5px #00000050;
+}
+
+nav li span:hover{
+    box-shadow: 8px 8px 0 10px #00000050;
+    transition: box-shadow 0.4s;
 }
 
 /* main */
